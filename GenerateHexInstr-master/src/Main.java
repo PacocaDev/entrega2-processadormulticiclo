@@ -5,7 +5,11 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
+// Universidade Federal de Minas Gerais
+// Gerador arquivo .mif com instruções em hexadecima de instruções MIPs para processador multiciclo.
+// Arquivo .mif utilizado pela FPGA para carregar dados na memoria de instruções e de dados.
+// Created By Filipe Marcelino
+// Email.
 public class Main {
 
 	private static Scanner inputData;
@@ -49,7 +53,8 @@ public class Main {
 + "DATA_RADIX=HEX;\n\n"
 + "CONTENT BEGIN\n";
 	
-		
+		// Entrada de valores de instruções em MIPs para trasnformação em hexa.
+		// Conjunto de isntruções listados abaixo.
 		System.out.println("Gerar arquivo de instrucoes(1) e dados(2)");
 		
 		while(true){
@@ -279,6 +284,9 @@ public class Main {
 			
 		}
 		
+		// Entrada de valores numericos para a memoria de dados.
+		// Até 1 MB de memoria.
+		// Uma por linha.
 		System.out.println("Gerar memoria dados, 'q' ou 'Q' para sair ");
 		
 		while(true){
@@ -294,6 +302,7 @@ public class Main {
 			
 		}
 		
+		// geração dos arquivos .mif
 		writer1.write(stringFIle);
 		
 		for(int i = 0; i < binaryInstr.size(); i++){
