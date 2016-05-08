@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 // Universidade Federal de Minas Gerais
-// Gerador arquivo .mif com instruções em hexadecima de instruções MIPs para processador multiciclo.
-// Arquivo .mif utilizado pela FPGA para carregar dados na memoria de instruções e de dados.
-// Created By Filipe Marcelino
-// Email.
+// Gerador arquivo .mif com instruÃ§Ãµes em hexadecima de instruÃ§Ãµes MIPs para processador multiciclo.
+// Arquivo .mif utilizado pela FPGA para carregar dados na memoria de instruÃ§Ãµes e de dados.
+// Created By Filipe GlicÃ©rio Gomes Marcelino
+// Email: felipemarcelino@c-comp.grad.ufmg.br
 public class Main {
 
 	private static Scanner inputData;
@@ -53,16 +53,16 @@ public class Main {
 + "DATA_RADIX=HEX;\n\n"
 + "CONTENT BEGIN\n";
 	
-		// Entrada de valores de instruções em MIPs para trasnformação em hexa.
-		// Conjunto de isntruções listados abaixo.
-		System.out.println("Gerar arquivo de instrucoes(1) e dados(2)");
+		// Entrada de valores de instruÃ§Ãµes em MIPs para trasnformaÃ§Ã£o em hexa.
+		// Conjunto de isntruÃ§Ãµes listados abaixo.
+		System.out.println("Gerar arquivo de instrucoes, tecle 'q' ou 'Q' para sair" );
 		
 		while(true){
 			
 			instr = inputString.nextLine();
 			parts = instr.split("\\s+");
 			
-			// Instruções
+			// InstruÃ§Ãµes
 			// ADDI
 			if(parts[0].equalsIgnoreCase("addi")){
 				bin = "001000";
@@ -275,9 +275,11 @@ public class Main {
 				parts[1] = String.format("%26s",Long.toBinaryString(aux)).replace(' ', '0');
 				bin += parts[1];
 				binaryInstr.add(bin);
-			// Sem instruções, adicionar instrução de halted
-			}else{
+			// Sem instruÃ§Ãµes, adicionar instruÃ§Ã£o de halted
+			}else if(parts[0].equalsIgnoreCase("halt")){
 				binaryInstr.add("11111111111111111111111111111111");
+			}else if(parts[0].equalsIgnoreCase("q")){
+
 				break;
 			}
 			
@@ -285,7 +287,7 @@ public class Main {
 		}
 		
 		// Entrada de valores numericos para a memoria de dados.
-		// Até 1 MB de memoria.
+		// AtÃ© 1 MB de memoria.
 		// Uma por linha.
 		System.out.println("Gerar memoria dados, 'q' ou 'Q' para sair ");
 		
@@ -302,7 +304,7 @@ public class Main {
 			
 		}
 		
-		// geração dos arquivos .mif
+		// geraÃ§Ã£o dos arquivos .mif
 		writer1.write(stringFIle);
 		
 		for(int i = 0; i < binaryInstr.size(); i++){
