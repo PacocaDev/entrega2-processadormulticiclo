@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'count[0]'
+Slack : -15.594
+TNS   : -6280.080
+
+Type  : Slow 1200mV 85C Model Setup 'will_write'
+Slack : -13.663
+TNS   : -12463.662
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -1.998
+TNS   : -30.792
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : -1.592
+TNS   : -21.361
+
+Type  : Slow 1200mV 85C Model Hold 'count[0]'
+Slack : -1.070
+TNS   : -1.070
+
+Type  : Slow 1200mV 85C Model Hold 'will_write'
+Slack : 1.688
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -32.555
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'count[0]'
+Slack : -2.693
+TNS   : -1923.980
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'will_write'
+Slack : -1.285
+TNS   : -1274.720
+
+Type  : Slow 1200mV 0C Model Setup 'count[0]'
+Slack : -14.377
+TNS   : -5730.980
+
+Type  : Slow 1200mV 0C Model Setup 'will_write'
+Slack : -12.485
+TNS   : -11446.722
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.667
+TNS   : -25.202
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -1.420
+TNS   : -19.240
+
+Type  : Slow 1200mV 0C Model Hold 'count[0]'
+Slack : -0.904
+TNS   : -0.904
+
+Type  : Slow 1200mV 0C Model Hold 'will_write'
+Slack : 1.569
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -32.555
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'count[0]'
+Slack : -2.649
+TNS   : -1895.820
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'will_write'
+Slack : -1.285
+TNS   : -1274.720
+
+Type  : Fast 1200mV 0C Model Setup 'count[0]'
+Slack : -7.523
+TNS   : -2895.713
+
+Type  : Fast 1200mV 0C Model Setup 'will_write'
+Slack : -6.515
+TNS   : -5953.971
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -0.519
+TNS   : -4.442
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -0.905
+TNS   : -12.890
+
+Type  : Fast 1200mV 0C Model Hold 'count[0]'
+Slack : -0.765
+TNS   : -0.765
+
+Type  : Fast 1200mV 0C Model Hold 'will_write'
+Slack : 0.787
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -32.560
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'will_write'
+Slack : -1.000
+TNS   : -992.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'count[0]'
+Slack : -1.000
+TNS   : -796.000
+
+------------------------------------------------------------

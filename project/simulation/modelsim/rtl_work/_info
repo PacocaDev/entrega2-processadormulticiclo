@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Alexandre\Desktop\Repositorios\OC2\Segunda entrega\project\simulation\modelsim
+vmux32
+IhD^bXLaoLZ6;1G]]G?DMg0
+Vi]Ao8[cCDD]PVLFNH^aTc0
+Z1 dC:\Users\Alexandre\Desktop\Repositorios\OC2\Segunda entrega\project\simulation\modelsim
+w1460140906
+8C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux32.v
+FC:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux32.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base} -O0
+!i10b 1
+!s100 QKNj[_EPB6n0Qo1h@a1QC0
+!s85 0
+!s108 1462491932.307000
+!s107 C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base|C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux32.v|
+!s101 -O0
+vmux8_4
+!i10b 1
+!s100 BgjFX^oWH=aI?:W^zS13J0
+IFeSUg<c?2XMGWG76Z^@ZP3
+Vb_Ca`FAT^o`_1^;HG;J?90
+R1
+w1460748932
+8C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux8_4.v
+FC:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux8_4.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1462491932.479000
+!s107 C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux8_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base|C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux8_4.v|
+!s101 -O0
+R3
+R4
+vregfile
+IF8>ZJ1ZZ;@JRe2H>l7o;L0
+VM@930TTLJ_hnk:U8cTjj41
+R1
+w1462462228
+8C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/regfile.v
+FC:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/regfile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ^C4cf85eUA=DT87Zd7ET62
+!s85 0
+!s108 1462491932.198000
+!s107 C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base|C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/regfile.v|
+!s101 -O0

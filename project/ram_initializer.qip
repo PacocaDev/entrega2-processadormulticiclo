@@ -1,0 +1,8 @@
+set_global_assignment -name IP_TOOL_NAME "RAM initializer"
+set_global_assignment -name IP_TOOL_VERSION "13.0"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "ram_initializer.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ram_initializer.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ram_initializer_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ram_initializer_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ram_initializer.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ram_initializer.cmp"]

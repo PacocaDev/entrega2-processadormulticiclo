@@ -1,0 +1,10 @@
+module alucontrol(
+input [5:0] opcode,
+input [5:0] funct,
+output reg [2:0] alu_func
+);
+
+//Complete e complemente o código da entrega 1 do trabalho prático
+	
+	
+endmodule

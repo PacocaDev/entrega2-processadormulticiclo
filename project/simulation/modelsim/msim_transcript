@@ -1,0 +1,65 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do segundaEntregaProject_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda\ entrega/entrega2-novo/Processador\ Base {C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/regfile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -vlog01compat -work work +incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda\ entrega/entrega2-novo/Processador\ Base {C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux32
+# 
+# Top level modules:
+# 	mux32
+# vlog -vlog01compat -work work +incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda\ entrega/entrega2-novo/Processador\ Base {C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mux8_4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux8_4
+# 
+# Top level modules:
+# 	mux8_4
+# vlog -vlog01compat -work work +incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda\ entrega/entrega2-novo/Processador\ Base {C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mips.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips
+# ** Error: C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mips.v(36): (vlog-2730) Undefined variable: 'rdy'.
+# 
+# ** Error: C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mips.v(93): 'rdy' already declared in this scope (mips).
+# ** Warning: C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda entrega/entrega2-novo/Processador Base/mips.v(209): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./segundaEntregaProject_run_msim_rtl_verilog.do line 11
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/Alexandre/Desktop/Repositorios/OC2/Segunda\ entrega/entrega2-novo/Processador\ Base {C:/Users/Alexandre..."
+vsim work.regfile
+# vsim work.regfile 
+# Loading work.regfile
+add wave -position insertpoint  \
+sim:/regfile/reg1 \
+sim:/regfile/reg2 \
+sim:/regfile/regDisplay \
+sim:/regfile/out1 \
+sim:/regfile/out2 \
+sim:/regfile/outDisplay \
+sim:/regfile/data \
+sim:/regfile/reg_wr \
+sim:/regfile/wr_enable \
+sim:/regfile/rst \
+sim:/regfile/i \
+sim:/regfile/file
+run
+run
+run
+run
+run
+run

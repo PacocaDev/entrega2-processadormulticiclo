@@ -1,0 +1,28 @@
+module regfile(
+	input [4:0] reg1,
+	input [4:0] reg2,
+	input [4:0] regDisplay,
+	
+	output reg [31:0] out1,
+	output reg [31:0] out2,
+	output reg [31:0] outDisplay,
+	
+	input [31:0] data,
+	input [4:0] reg_wr,
+	input wr_enable,
+
+	input rst
+	
+);
+reg [31:0] file [31:0];
+
+//Complete com a entrega 1 do trabalho prático
+
+
+//O código a seguir permite a leitura de um terceiro registrado para que seja visualizado nos displays de 7 segmentos
+always@(regDisplay)
+begin
+		outDisplay <= file[regDisplay];
+end
+
+endmodule

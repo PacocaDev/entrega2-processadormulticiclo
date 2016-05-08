@@ -1,0 +1,13 @@
+module alu(
+	input [31:0]	op1,
+	input [31:0]	op2,
+	input [2:0]		func,
+	output reg [31:0]	result,
+	output zero
+);
+
+
+//Complete com o código da entrega 1 do trabalho prático
+
+
+endmodule

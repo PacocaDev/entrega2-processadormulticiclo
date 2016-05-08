@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="segundaEntregaProject">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|mem32:mem32|mem8:mem8_2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|ram_initializer:ram_initializer|ram_initializer_meminit_a6m:ram_initializer_meminit_a6m_component|lpm_compare:wait_cmpr" CBX_FILE_NAME="cmpr_iid.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|ram_initializer:ram_initializer|ram_initializer_meminit_a6m:ram_initializer_meminit_a6m_component|lpm_counter:wait_ctr" CBX_FILE_NAME="cntr_h6k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|mem32:mem32|mem8:mem8_0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|ram_initializer2:ram_initializer2|ram_initializer2_meminit_s7m:ram_initializer2_meminit_s7m_component|lpm_compare:wait_cmpr" CBX_FILE_NAME="cmpr_iid.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|ram_initializer2:ram_initializer2|ram_initializer2_meminit_s7m:ram_initializer2_meminit_s7m_component|lpm_counter:wait_ctr" CBX_FILE_NAME="cntr_h6k.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|mem32:mem32|mem8:mem8_3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|ram_initializer:ram_initializer|ram_initializer_meminit_a6m:ram_initializer_meminit_a6m_component|altsyncram:int_rom" CBX_FILE_NAME="altsyncram_t4q.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|mem32:mem32|mem8:mem8_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|ram_initializer2:ram_initializer2|ram_initializer2_meminit_s7m:ram_initializer2_meminit_s7m_component|altsyncram:int_rom" CBX_FILE_NAME="altsyncram_f6q.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|mem32:mem32|mem8:mem8_0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|ram_initializer:ram_initializer|ram_initializer_meminit_a6m:ram_initializer_meminit_a6m_component|lpm_compare:addr_cmpr" CBX_FILE_NAME="cmpr_25e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|ram_initializer:ram_initializer|ram_initializer_meminit_a6m:ram_initializer_meminit_a6m_component|lpm_counter:addr_ctr" CBX_FILE_NAME="cntr_qek.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|mem32:mem32|mem8:mem8_2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|ram_initializer2:ram_initializer2|ram_initializer2_meminit_s7m:ram_initializer2_meminit_s7m_component|lpm_compare:addr_cmpr" CBX_FILE_NAME="cmpr_25e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|ram_initializer2:ram_initializer2|ram_initializer2_meminit_s7m:ram_initializer2_meminit_s7m_component|lpm_counter:addr_ctr" CBX_FILE_NAME="cntr_qek.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst:mem32_with_rst|mem32:mem32|mem8:mem8_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips|mem32_with_rst_data:mem32_with_rst_data|mem32:mem32|mem8:mem8_3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t9g1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
