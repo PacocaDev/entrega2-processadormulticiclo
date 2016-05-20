@@ -16,6 +16,7 @@ input  [17:0] SW
 
 
 reg [3:0] fsm;
+reg [3:0] fsm2;
 reg [31:0] ir;
 reg [15:0] pc;
 reg [1:0] inst_type;
@@ -180,8 +181,12 @@ begin
 			begin
 					fsm <= 4'b0001;
 			end
-			
-			4'b0001: //IF
+		end
+	end
+end
+always @((posedge clk or posedge rst) && fsm == 4'b0001)
+begin
+			//IF
 			begin
 				pc <= pc + 4;
 				is_immediate <= 0;
@@ -190,10 +195,9 @@ begin
 				will_write <= 1'b0;
 				will_write_mem <= 1'b0;
 				ir <= inst_mem_out;
-				fsm <= 4'b0010;
 			end
 
-			4'b0010: //ID
+			//ID
 			begin
 				case(opcode)
 					6'd0:	//R
@@ -220,9 +224,9 @@ begin
 					end
 				endcase
 				
-				fsm <= 4'b0011;
+				
 			end
-			4'b0011: //EX
+			//EX
 			begin
 				if(inst_type[0]) //R | I
 					begin
@@ -271,20 +275,15 @@ begin
 							pc <= {addr[13:0],2'b00};//{pc[31:28] , addr};
 							will_write <= 0;
 						end
-					
-				fsm <= 4'b0100;
 			end
-			4'b0100: //MEM
-			begin
-				fsm <= 4'b0101;
-				wr_mem_enabled <= 1'b1;
-				
+			//MEM
+			begin	
+				wr_mem_enabled <= 1'b1;	
 			end
-			4'b0101: //WB
+			//WB
 			begin
 				wr_mem_enabled <= 1'b0;
 				wr_enable <= 1'b1;
-				fsm <= 4'b0001;
 			end
 			endcase
 		end
